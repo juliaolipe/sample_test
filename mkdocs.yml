@@ -1,0 +1,42 @@
+site_name: 'Proposta Sérgio'
+theme: 
+  name: 'material'
+  logo: 'logo-serpro.png'
+  favicon: 'logo-serpro.png'
+  features:
+  - search.highlight
+  - search.suggest
+markdown_extensions:
+  - admonition
+  - footnotes
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.details
+extra_css:
+  - custom.css
+nav:
+- 'Início': 'index.md'
+- 'Soluções':
+      - 'Big Data Analytics':
+          - 'Big Data Analytics': 'Soluções\Big Data Analytics\Big Data Analytics.md'
+          - 'Detalhes': 'Soluções\Big Data Analytics\Detalhes.md'
+          - 'Detalhes2': 'Soluções\Big Data Analytics\Detalhes2.md'
+          - 'Detalhes3': 'Soluções\Big Data Analytics\Detalhes3.md'
+      - 'Biometria': 'Soluções\Biometria.md'
+      - 'IA Clássica': 'Soluções\IA Clássica.md'
+      - 'IA Generativa': 'Soluções\IA Generativa.md'
+      - 'IA Antifraude': 'Soluções\IA Antifraude.md'
+      - 'Processos e Ferramentas': 'Soluções\Processos e Ferramentas.md'
+      - 'RPA: Hiperautomação': 'Soluções\RPA Hiperautomação.md'
+- 'Equipes': 'Equipes.md'
+- 'Nossos Clientes': 'Nossos Clientes.md'
+- 'Publicações': 'Publicações.md'
+
+
